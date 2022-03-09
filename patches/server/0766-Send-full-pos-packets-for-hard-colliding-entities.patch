@@ -9,10 +9,10 @@ Configurable under
 `send-full-pos-for-hard-colliding-entities`
 
 diff --git a/src/main/java/com/destroystokyo/paper/PaperConfig.java b/src/main/java/com/destroystokyo/paper/PaperConfig.java
-index 4444356a6bd44afdbe67593136c18b803a0ddd66..8c2065a906d9ad8bd0b480a675b76b38680088e0 100644
+index 5a2a96cef32515d8812e32f31274ea0de6ed9da5..567688f0e8f4b5d8f3593954c8459dd948b84146 100644
 --- a/src/main/java/com/destroystokyo/paper/PaperConfig.java
 +++ b/src/main/java/com/destroystokyo/paper/PaperConfig.java
-@@ -623,4 +623,10 @@ public class PaperConfig {
+@@ -625,4 +625,10 @@ public class PaperConfig {
      private static void lagCompensateBlockBreaking() {
          lagCompensateBlockBreaking = getBoolean("settings.lag-compensate-block-breaking", true);
      }

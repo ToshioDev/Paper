@@ -5,10 +5,10 @@ Subject: [PATCH] Validate usernames
 
 
 diff --git a/src/main/java/com/destroystokyo/paper/PaperConfig.java b/src/main/java/com/destroystokyo/paper/PaperConfig.java
-index 04cb8282efae69aa62ae1dad4c39220f658ec575..48eeeb832127f681f6cb8162cbe3954fc14bb47d 100644
+index 389d619e7a67739f426eea408d89887346a1fccb..d405f353047d5f3759e274cadead4f7a37177743 100644
 --- a/src/main/java/com/destroystokyo/paper/PaperConfig.java
 +++ b/src/main/java/com/destroystokyo/paper/PaperConfig.java
-@@ -493,6 +493,12 @@ public class PaperConfig {
+@@ -495,6 +495,12 @@ public class PaperConfig {
          set("settings.unsupported-settings.allow-tnt-duplication", null);
      }
  

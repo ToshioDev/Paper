@@ -5,10 +5,10 @@ Subject: [PATCH] Make item validations configurable
 
 
 diff --git a/src/main/java/com/destroystokyo/paper/PaperConfig.java b/src/main/java/com/destroystokyo/paper/PaperConfig.java
-index 4a7e4c2038dd4a7496ed4084a19f31a611ee319a..b33ece9a98f94d0c09b837bc95dbfab82ff6cabe 100644
+index 903737e3968181a8d557ba9bb69ce5fadc347c00..8ec9d2899b0955ae121624c29af525dfabc4ea47 100644
 --- a/src/main/java/com/destroystokyo/paper/PaperConfig.java
 +++ b/src/main/java/com/destroystokyo/paper/PaperConfig.java
-@@ -504,4 +504,19 @@ public class PaperConfig {
+@@ -506,4 +506,19 @@ public class PaperConfig {
          config.set("settings.unsupported-settings.allow-headless-pistons-readme", "This setting controls if players should be able to create headless pistons.");
          allowHeadlessPistons = getBoolean("settings.unsupported-settings.allow-headless-pistons", false);
      }

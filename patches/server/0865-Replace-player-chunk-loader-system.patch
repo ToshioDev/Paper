@@ -84,10 +84,10 @@ index 5e3b7fb2e0b7608610555cd23e7ad25a05883181..1cb0aae3e0c619a715766e0fa604dfd9
          }));
  
 diff --git a/src/main/java/com/destroystokyo/paper/PaperConfig.java b/src/main/java/com/destroystokyo/paper/PaperConfig.java
-index 66501c3b0eb92d946ef77bbd3f36ebcc0d3023af..153f07bac06093b43a1f5b0f8e1a46ffbe6407e5 100644
+index 7c1b1f1719c937b1b2036fb0de1f893abbed8f5b..a9873cb35073027555e242cc5fbd676157717fbb 100644
 --- a/src/main/java/com/destroystokyo/paper/PaperConfig.java
 +++ b/src/main/java/com/destroystokyo/paper/PaperConfig.java
-@@ -650,4 +650,33 @@ public class PaperConfig {
+@@ -652,4 +652,33 @@ public class PaperConfig {
      private static void timeCommandAffectsAllWorlds() {
          timeCommandAffectsAllWorlds = getBoolean("settings.time-command-affects-all-worlds", timeCommandAffectsAllWorlds);
      }

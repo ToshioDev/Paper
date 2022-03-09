@@ -10,10 +10,10 @@ when if this was fixed on the client, that wouldn't be needed.
 Mojira Issue: https://bugs.mojang.com/browse/MC-235045
 
 diff --git a/src/main/java/com/destroystokyo/paper/PaperConfig.java b/src/main/java/com/destroystokyo/paper/PaperConfig.java
-index 3916d3e7773f4a3b6d5c5347d6a12a707bffcdad..04cb8282efae69aa62ae1dad4c39220f658ec575 100644
+index e7f0c206e6fdef5710d53c2bb1ab2b85e2fd4d1e..389d619e7a67739f426eea408d89887346a1fccb 100644
 --- a/src/main/java/com/destroystokyo/paper/PaperConfig.java
 +++ b/src/main/java/com/destroystokyo/paper/PaperConfig.java
-@@ -525,6 +525,11 @@ public class PaperConfig {
+@@ -527,6 +527,11 @@ public class PaperConfig {
          itemValidationBookPageLength = getInt("settings.item-validation.book.page", itemValidationBookPageLength);
      }
  
